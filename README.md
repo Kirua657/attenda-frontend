@@ -77,3 +77,7 @@ GitHubで **base: develop / compare: 自分のfeature** のPRを作り、他の1
 作成時の `npm audit` では、ESLintの開発用依存（bracesを含む連鎖）にhighの報告が5件あります。
 現時点で互換性のある修正版は確認できていません。Next.jsを古い版へ落とす
 `npm audit fix --force` は使わず、修正版の公開後にlockfileを更新します。
+
+## チームのGitHub作業手順
+
+[メンバー用GitHub作業テンプレート](docs/github-guide.md)に、作業開始・保存・PR・レビュー・取り込みの手順と記入例をまとめています。
